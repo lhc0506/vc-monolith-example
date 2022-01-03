@@ -1,0 +1,30 @@
+html
+  head
+    title React 1
+    meta(charset='utf-8')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    div(
+      id="container"
+    )
+      a(
+        href="/react1"
+      ) React 1 Page
+      a(
+        href="/react2"
+      ) React 2 Page
+      h1 Server Rendered Page: React 1
+      div(
+        id="root"
+      )
+    script(
+      crossorigin
+      src="https://unpkg.com/react@16/umd/react.development.js"
+    )
+    script(
+      crossorigin
+      src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"
+    )
+    script(
+      src="/javascripts/react1.js"
+    )
